@@ -10,15 +10,15 @@
 * `cat ~/.ssh/id_rsa.pub >> ～/.ssh/authorized_keys`
 
 ### 下载并解压缩[hadoop](http://archive.apache.org/dist/hadoop/core/ "title")安装并配置
-* core-site.xml
-> ` <name>fs.default.name</name>
-  <value>hdfs://localhost/</value>`
-* hdfs-site.xml
->  ` <name>dfs.replication</name>
-   <value>1</value>`
-* mapred-site.xml
->  `<name>mapred.job.tracker</name>
-   <value>localhost:8021</value>`
+* core-site.xml  
+ ` <name>fs.default.name</name>  
+  <value>hdfs://localhost/</value>`  
+* hdfs-site.xml  
+ ` <name>dfs.replication</name>  
+   <value>1</value>`  
+* mapred-site.xml  
+  `<name>mapred.job.tracker</name>  
+   <value>localhost:8021</value>`  
 
 ### 启动hadoop
 * `start-all.sh`
