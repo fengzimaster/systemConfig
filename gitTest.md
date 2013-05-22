@@ -32,5 +32,15 @@
 * git push remote branch
 * git pull remote
 
+## git tag 操作
+* `git tag v -m`
+* `git push remote name -tags`
+
+## git flow 使用
+* `git flow init` init git-flow and branch feature hot release develop, auto swich to develop
+* `git flow feature start name` new feature with prefix name and swich
+* `git flow feature publish name` push code to origin and new branch
+* `git flow feature pull remote name`
+* `git flow feature finish name` delete new feature branch and swich to develop
 
 
